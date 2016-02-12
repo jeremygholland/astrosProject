@@ -1,0 +1,105 @@
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  width: 100vw; }
+
+.contain {
+  margin: 10px;
+  width: 95vw; }
+
+.head {
+  background: #022d62;
+  height: 9vh;
+  width: 100%;
+  max-width: 100%;
+  border-bottom: 1px solid white;
+  font-size: 2vw; }
+  .head .containHead {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    overflow-x: hidden;
+    max-width: 100vw; }
+    .head .containHead div {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      width: 23%;
+      text-align: center;
+      height: 9vh; }
+    .head .containHead div:hover {
+      background-color: #e37624; }
+    .head .containHead div a {
+      color: white;
+      text-decoration: none; }
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%; }
+  .content .one {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden; }
+    .content .one img {
+      height: 100%;
+      width: 100%;
+      opacity: .5;
+      z-index: -10;
+      position: absolute; }
+    .content .one .backgroundcolor {
+      height: 100%;
+      width: 100%;
+      z-index: -10;
+      position: absolute;
+      background-color: black; }
+    .content .one .title {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      z-index: 1; }
+      .content .one .title h1 {
+        color: white;
+        font-size: 4vw; }
+
+#retiredExpand, #depthExpand, #playoffExpand, #mascotExpand {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  height: 50vh;
+  width: 95vw;
+  justify-content: space-around;
+  background-color: #022d62;
+  z-index: 1;
+  position: absolute; }
+  #retiredExpand .sections, #depthExpand .sections, #playoffExpand .sections, #mascotExpand .sections {
+    width: 22%; }
+    #retiredExpand .sections .containExtension div:hover, #depthExpand .sections .containExtension div:hover, #playoffExpand .sections .containExtension div:hover, #mascotExpand .sections .containExtension div:hover {
+      background-color: #e37624; }
+    #retiredExpand .sections .containExtension div, #depthExpand .sections .containExtension div, #playoffExpand .sections .containExtension div, #mascotExpand .sections .containExtension div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 5vh; }
+      #retiredExpand .sections .containExtension div a, #depthExpand .sections .containExtension div a, #playoffExpand .sections .containExtension div a, #mascotExpand .sections .containExtension div a {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%; }
+      #retiredExpand .sections .containExtension div a:active, #depthExpand .sections .containExtension div a:active, #playoffExpand .sections .containExtension div a:active, #mascotExpand .sections .containExtension div a:active {
+        color: white; }
+      #retiredExpand .sections .containExtension div a:hover, #depthExpand .sections .containExtension div a:hover, #playoffExpand .sections .containExtension div a:hover, #mascotExpand .sections .containExtension div a:hover {
+        text-decoration: underline; }
+      #retiredExpand .sections .containExtension div img, #depthExpand .sections .containExtension div img, #playoffExpand .sections .containExtension div img, #mascotExpand .sections .containExtension div img {
+        margin-top: 20vh;
+        width: 75%; }
+
+/*# sourceMappingURL=index.css.map */
