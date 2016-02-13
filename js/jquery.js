@@ -7,34 +7,37 @@ $(document).ready(function(){
   }
   hide();
   $('.retired').hover(function(){
-    $('#retiredExpand').show(800);
-    $('#depthExpand').hide( 600);
-    $('#mascotExpand').hide(600);
-    $('#playoffExpand').hide(600);
+    $('#retiredExpand').show(600);
+    $('#depthExpand').hide(400);
+    $('#mascotExpand').hide(400);
+    $('#playoffExpand').hide(400);
   })
   $('.depth').hover(function(){
-    $('#depthExpand').show(800);
-    $('#retiredExpand').hide(600);
-    $('#mascotExpand').hide(600);
-    $('#playoffExpand').hide(600);
+    $('#depthExpand').show(600);
+    $('#retiredExpand').hide(400);
+    $('#mascotExpand').hide(400);
+    $('#playoffExpand').hide(400);
   })
   $('.mascot').hover(function(){
-    $('#mascotExpand').show(800);
-    $('#depthExpand').hide(600);
-    $('#retiredExpand').hide(600);
-    $('#playoffExpand').hide(600);
+    $('#mascotExpand').show(600);
+    $('#depthExpand').hide(400);
+    $('#retiredExpand').hide(400);
+    $('#playoffExpand').hide(400);
   })
   $('.playoff').hover(function(){
-    $('#playoffExpand').show(800);
-    $('#depthExpand').hide(600);
-    $('#retiredExpand').hide(600);
-    $('#mascotExpand').hide(600);
+    $('#playoffExpand').show(600);
+    $('#depthExpand').hide(400);
+    $('#retiredExpand').hide(400);
+    $('#mascotExpand').hide(400);
   })
 
 $('.content').hover(function(){
 hide();
 })
 $('body').hover(function(){
+  hide();
+})
+$('a').click(function(){
   hide();
 })
 

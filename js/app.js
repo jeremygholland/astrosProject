@@ -10,6 +10,16 @@ myApp.config([
 				url: '/home',
 				templateUrl: 'views/test.html'
 			})
+			.state('retired/biggio', {
+				controller: 'MainCtrl',
+				url: '/retired/biggio',
+				templateUrl: 'views/retired/7.html'
+			})
+			.state('retired/bagwell', {
+				controller: 'MainCtrl',
+				url: '/retired/bagwell',
+				templateUrl: 'views/retired/5.html'
+			})
 			$urlRouterProvider.otherwise('home');
 	}
 ])

@@ -2,12 +2,7 @@
 <head>
 	<title>Test Landing</title>
 	<link rel="stylesheet" href="css/index.css">
-	<script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
-	<script src = "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular.js"></script>
-	<script src = "https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
-	<script src = "js/app.js"></script>
-	<script src = "js/jquery.js"></script>
-</head>
+	</head>
 <body ng-controller = "MainCtrl">
 	<div class="contain">
 	<header class = "head">
@@ -20,9 +15,8 @@
 		<div id="retiredExpand" class = "roster">
 			<div class="sections">
 				<div class = "containExtension">
-					<div><a href="#"> shit</a></div>
-					<div><a href="#"> shit</a></div>
-					<div><a href="#"> shit</a></div>
+					<div><a ui-sref="retired/biggio"> #7 Craig Biggio</a></div>
+					<div><a ui-sref="retired/bagwell"> #5 Jeff Bagwell</a></div>
 				</div>
 			</div>
 			<div class="sections">
@@ -36,9 +30,6 @@
 				<div class = "containExtension">
 					<div><a href="#">One</a></div>
 					<div><a href="#">Two</a></div>
-					<div><a href="#">Three</a></div>
-					<div><a href="#">Four</a></div>
-					<div><a href="#">Five</a></div>
 				</div>
 			</div>
 			<div class="sections">
@@ -163,5 +154,10 @@
 	</div>
 
 	</div>
+	<script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
+	<script src = "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular.js"></script>
+	<script src = "https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
+	<script src = "js/app.js"></script>
+	<script src = "js/jquery.js"></script>
 </body>
 </html>
